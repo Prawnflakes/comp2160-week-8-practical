@@ -27,8 +27,7 @@ public class Scorekeeper : MonoBehaviour
         }
     }
 
-    public int coinScore = 1;
-
+    public int pointsPerPickup = 1;
     private int score = 0;
 
     void Awake()
@@ -49,7 +48,7 @@ public class Scorekeeper : MonoBehaviour
         score = 0;
     }
 
-    public void GetCoin()
+    public void IncrementScore()
     {
         score += scorePerCoin;
     }
