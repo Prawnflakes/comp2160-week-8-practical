@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6359281113491525467}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,6 +88,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 7119171007810856869, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262472185205809140, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
 --- !u!4 &3242152937263306986 stripped
@@ -150,6 +158,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7119171007810856869, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262472185205809140, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
 --- !u!4 &4674090860964474655 stripped
@@ -211,6 +227,14 @@ PrefabInstance:
     - target: {fileID: 7119171007810856869, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
       propertyPath: m_Name
       value: Coin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7119171007810856869, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262472185205809140, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944a9ab94dd13044ead4f5bb06b5ce3e, type: 3}
