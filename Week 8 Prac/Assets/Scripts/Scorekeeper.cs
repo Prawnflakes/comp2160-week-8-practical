@@ -50,6 +50,6 @@ public class Scorekeeper : MonoBehaviour
 
     public void IncrementScore()
     {
-        score += scorePerCoin;
+        score += pointsPerPickup;
     }
 }
