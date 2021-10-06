@@ -51,5 +51,6 @@ public class Scorekeeper : MonoBehaviour
     public void IncrementScore()
     {
         score += pointsPerPickup;
+        Debug.Log("+1 cpoin, curr score = " + score);
     }
 }
