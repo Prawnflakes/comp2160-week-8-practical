@@ -24,6 +24,7 @@ public class Coin : MonoBehaviour
 
         if(playerLayer.Contains(other))
         {
+            Debug.Log("colliusion iwhjt choijn");
             Destroy(gameObject);
 
             Scorekeeper.Instance.IncrementScore();
