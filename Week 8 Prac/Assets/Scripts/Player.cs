@@ -26,9 +26,9 @@ public class Player : MonoBehaviour
         //movement
 
         float dx = Input.GetAxis(InputAxes.HorizontalMovement);
-        float dy = Input.GetAxis(InputAxes.VerticalMovement);
+        float dz = Input.GetAxis(InputAxes.LongitudinalMovement);
 
-        Vector3 velocity = new Vector3(dx, dy, 0) * playerSpeed;
+        Vector3 velocity = new Vector3(dx, 0, dz) * playerSpeed;
         transform.Translate(velocity * Time.deltaTime);
 
 
