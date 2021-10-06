@@ -5,5 +5,5 @@ using UnityEngine;
 public class InputAxes
 {
     public const string HorizontalMovement = "HorizontalMovement";
-    public const string VerticalMovement = "VerticalMovement";
+    public const string LongitudinalMovement = "LongitudinalMovement";
 }
