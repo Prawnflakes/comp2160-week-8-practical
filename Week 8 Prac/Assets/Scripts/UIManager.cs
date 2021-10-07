@@ -20,8 +20,10 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public Text scoreText;
-    public string scoreFormat = "Score: {0}";
+    public Text scoreTextP1;
+    public Text scoreTextP2;
+    public string scoreFormatP1 = "Player 1 Score: {0}";
+    public string scoreFormatP2 = "Player 2 Score: {0}";
 
     void Awake()
     {
@@ -41,6 +43,7 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = string.Format(scoreFormat, Scorekeeper.Instance.Score);
+        scoreTextP1.text = string.Format(scoreFormatP1, Scorekeeper.Instance.Score[0]);
+        scoreTextP2.text = string.Format(scoreFormatP2, Scorekeeper.Instance.Score[1]);
     }
 }

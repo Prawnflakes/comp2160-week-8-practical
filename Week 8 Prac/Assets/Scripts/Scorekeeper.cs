@@ -19,7 +19,7 @@ public class Scorekeeper : MonoBehaviour
             return instance;
         }
     }
-    public int Score
+    public int[] Score
     {
         get
         {
@@ -28,7 +28,7 @@ public class Scorekeeper : MonoBehaviour
     }
 
     public int pointsPerPickup = 1;
-    private int score = 0;
+    private int[] score = { 0, 0 };
 
     void Awake()
     {
@@ -45,12 +45,21 @@ public class Scorekeeper : MonoBehaviour
 
     void Start()
     {
-        score = 0;
+        score[0] = 0;
+        score[1] = 0;
     }
 
-    public void IncrementScore()
+    public void IncrementScore(GameObject player)
     {
-        score += pointsPerPickup;
-        Debug.Log("+1 cpoin, curr score = " + score);
+        if(player.name == "Player1")
+        {
+            score[0] += pointsPerPickup;
+            Debug.Log(player.name + " +1 cpoin, curr score = " + score[0]);
+        }
+        if(player.name == "Player2")
+        {
+            score[1] += pointsPerPickup;
+            Debug.Log(player.name + " +1 cpoin, curr score = " + score[1]);
+        }
     }
 }

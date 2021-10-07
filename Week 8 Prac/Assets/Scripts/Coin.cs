@@ -27,7 +27,7 @@ public class Coin : MonoBehaviour
             Debug.Log("colliusion iwhjt choijn");
             Destroy(gameObject);
 
-            Scorekeeper.Instance.IncrementScore();
+            Scorekeeper.Instance.IncrementScore(other);
         }
     }
 }
