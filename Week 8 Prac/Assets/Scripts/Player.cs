@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
             Vector3 velocity = new Vector3(dx, 0, dz) * playerSpeed;
             player2.Translate(velocity * Time.deltaTime);
         }
-        else
+        if (Input.GetAxis(InputAxes.HorizontalMovement) != 0 || Input.GetAxis(InputAxes.LongitudinalMovement) != 0)
         {
 
             float dx = Input.GetAxis(InputAxes.HorizontalMovement);
