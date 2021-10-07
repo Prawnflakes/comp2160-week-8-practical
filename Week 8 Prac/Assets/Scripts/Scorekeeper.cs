@@ -28,7 +28,7 @@ public class Scorekeeper : MonoBehaviour
     }
 
     public int pointsPerPickup = 1;
-    private int[] score = { 0, 0 };
+    private int[] score = { 0, 0 };     //array for holding player scores, score[0] being player1 and score[1] being player 2
 
     void Awake()
     {
@@ -49,7 +49,7 @@ public class Scorekeeper : MonoBehaviour
         score[1] = 0;
     }
 
-    public void IncrementScore(GameObject player)
+    public void IncrementScore(GameObject player)   //check name of player that collided with a coin and increment their score
     {
         if(player.name == "Player1")
         {
