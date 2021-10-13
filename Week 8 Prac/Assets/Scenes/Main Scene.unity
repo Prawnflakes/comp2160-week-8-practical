@@ -522,8 +522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eeec0dea4fe2ca4ca26d86ca8386479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreTextP1: {fileID: 0}
-  scoreTextP2: {fileID: 0}
+  scoreTextP1: {fileID: 1272543931}
+  scoreTextP2: {fileID: 624357162}
   scoreFormatP1: 'Player 1 Score: {0}'
   scoreFormatP2: 'Player 2 Score: {0}'
 --- !u!4 &1239774574
